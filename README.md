@@ -1,2 +1,2 @@
 # data-cleaning-documentation
-📝 This is a guideline to clean our data for maintain data integrity and quality.
+📝 This is a documentation guide to clean our data for maintaining data integrity and quality.
