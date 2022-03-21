@@ -5,10 +5,10 @@
 
 Valid Mobile Number records:
 
-✔️ Country code and length of country code should be valid
+✔️ Country code and length of country code should be valid.
 > If country code is 91, then length of the mobile number should be 10.
 
-✔️ Mobile number should start with a valid digit accordingly to respective country code
+✔️ Mobile number should start with a valid digit accordingly to respective country code.
 > If country code is 91 and length of mobile number is 10, the starting digit should be between 6 and 9.
 
 ✔️ If there's no mobile number for any user, then the value would be `null`.
@@ -30,3 +30,38 @@ Invalid Mobile number records:
 
 ❌ There should be no special characters in mobile_numbers.
 > +, E, -, ,, ..
+
+### Speciality
+
+All valid specialities are added in `specialities` table.
+
+✔️ Specialities data present in other tables should use reference of specialities table.
+
+✔️ If there's no speciality found for any user, `null` should be used.
+
+Invalid speciality records:
+
+❌ A speciality in other tables cannot be `empty` or `0` or `#N/A` or `NA`.
+
+### Email
+
+Valid Email records:
+
+✔️ Always a string and doesn't contain only numbers.
+
+✔️ Always have a domain name
+> @xyz.com, @abc.com
+
+✔️ If there's no email found for any user, `null` should be used.
+
+Invalid Email records:
+
+❌ An email record should never be `empty` or `0` or `#N/A` or `NA`.
+
+### First and Last Name
+
+Invalid records:
+
+❌ It can never be `empty` or `0` or `#N/A` or 'NA'
+
+
