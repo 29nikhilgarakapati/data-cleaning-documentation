@@ -65,3 +65,11 @@ Invalid records:
 ❌ It can never be `empty` or `0` or `#N/A` or 'NA'
 
 
+---
+
+✔️ If there's a data dump happening through csv in `universal3` table, the default user status should be `universal`.
+
+✔️ If there's any doctor that has been allocated to a DigiMR, the user status in universal3 table should be `digiMR`.
+
+✔️ Whenever any doctor's call status is logged in `telecaller_member_call_histories`, the `DigiMR_call_status` in universal3 should also be similary updated.
+
